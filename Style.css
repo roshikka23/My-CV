@@ -1,0 +1,135 @@
+/* Reset styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0c8dc4;
+    color: #041533;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 5px;
+    color: #522fb9; /* Blue color for heading */
+}
+
+header p {
+    color: #ffcc33; /* Yellow color for subheading */
+}
+
+section {
+    background-color: #90ebd4;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px; /* Rounded corners for sections */
+    box-shadow: 0 0 10px rgba(98, 132, 11, 0.373); /* Drop shadow effect */
+}
+
+section h2 {
+    color: #001696; /* Blue color for section headings */
+    border-bottom: 2px solid #930096; /* Purple border bottom */
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #b9a0a0;
+    color: #0b0b0b;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+/* Default styles */
+.profile-image {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+    .profile-image {
+        width: 150px; /* Increase size for desktop */
+        top: 30px; /* Adjust position for desktop */
+        right: 30px; /* Adjust position for desktop */
+    }
+}
+
+/* Tablet styles */
+@media (max-width: 1024px) {
+    .profile-image {
+        width: 120px; /* Adjust size for tablet */
+        top: 25px; /* Adjust position for tablet */
+        right: 25px; /* Adjust position for tablet */
+    }
+}
+
+/* Smartphone styles */
+@media (max-width: 768px) {
+    .profile-image {
+        width: 80px; /* Adjust size for smartphone */
+        top: 15px; /* Adjust position for smartphone */
+        right: 15px; /* Adjust position for smartphone */
+    }
+}
+
+
+/* Default styles */
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+    /* Add desktop-specific styles here */
+    header {
+        padding: 30px;
+    }
+}
+
+/* Tablet styles */
+@media (max-width: 1024px) {
+    /* Add tablet-specific styles here */
+    header {
+        padding: 20px;
+    }
+}
+
+/* Smartphone styles */
+@media (max-width: 768px) {
+    /* Add smartphone-specific styles here */
+    header {
+        padding: 10px;
+    }
+}
