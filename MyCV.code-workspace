@@ -1,3 +1,79 @@
-{
-	"folders": []
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-n2whmHR4dwwvH1sCkUE+X5NIfny89UG9gA7u9+04WQD0xjCpbGmhgw6GzflvSG0Fd0aYbq35J1vEPK/TOgEKeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <img src="Picture1.png" alt="Profile Image" class="profile-image">
+        <h1>ROSHIKKA VISVANATHAN</h1>
+        <p>DATA ANALYST| DATA SCIENTIST</p>
+    </header>
+
+    <section id="personal-info">
+        <h2>Personal Information</h2>
+        <ul>
+            <li><i class="fas fa-envelope"></i> <strong>Email:</strong> vrosh23@gmail.com</li>
+            <li><i class="fas fa-phone"></i> <strong>Phone:</strong> +60 012345678</li>
+            <li><i class="fas fa-map-marker-alt"></i> <strong>Address:</strong> Kuala Lumpur, Malaysia</li>
+        </ul>
+    </section>
+    
+    <section id="education">
+        <h2>Education</h2>
+        <div class="edu-item">
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p>University Utara Malaysia, Sintok, Kedah, Malaysia (2022 - 2025)</p>
+        </div>
+    </section>
+
+    <section id="work-experience">
+        <h2>Work Experience</h2>
+        <div class="exp-item">
+            <h3>Data Analyst</h3>
+            <p>Ferummas Precision Sdn.Bhd, Penang, Malaysia (2020 - 2021)</p>
+            <ul>
+                <li>Responsible for using their knowledge of data processing software and business development strategies to provide sound business decisions.</li>
+                <li>Identifying trends and making predictions about the future business.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Excel</li>
+            <li>PowerPoint</li>
+            <li>Word</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>R Studio</li>
+            <li>Python</li>
+        </ul>
+        <label for="skillSlider">Skill Level:</label>
+    <input type="range" id="skillSlider" min="0" max="100" value="80">
+    <p id="skillLevel">Skill Level: 80%</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Roshikka.V. All rights reserved.</p>
+        <ul class="social-links">
+            <li><a href="#personal-info">Personal Info</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work-experience">Work Experience</a></li>
+        </ul>
+        <ul class="social-links">
+            <li><a href="https://www.instagram.com/roshikka_visva/">Instagram</a></li>
+            <li><a href="https://www.facebook.com/roshikka.visvanathan.1/about/">Facebook</a></li>
+            <li><a href="https://www.linkedin.com/in/roshikka-visvanathan-2a6475280/">LinkedIn</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
